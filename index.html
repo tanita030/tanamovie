@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.35, user-scalable=yes">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <audio id="clickSound">
+    <source src="click.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="contenedor">
+    <img src="imagenes/fondo.png" id="fondo">
+    <img src="imagenes/altavoz_izquierdo.png" id="altavoz-izquierdo" class="altavoz">
+    <img src="imagenes/altavoz_derecho.png" id="altavoz-derecho" class="altavoz">
+    <img src="imagenes/altavoz_centro.png" id="altavoz-centro" class="altavoz">
+
+    <div id="noticias">
+      <img src="imagenes/noticias.png">
+      <p id="texto-noticias">Gay...</p>
+    </div>
+    
+    <img src="imagenes/luz_pantalla.png" id="luz-pantalla">
+
+    <img src="imagenes/etiqueta.png" id="etiqueta">
+
+    <img src="imagenes/portada_defecto.png" id="portada">
+    <video id="video-portada" autoplay muted loop class="oculto"></video>
+    <div id="btn-portada"></div>
+    
+    <img src="imagenes/rueda.png" id="rueda1" class="rueda-giratoria">
+    <img src="imagenes/rueda.png" id="rueda2" class="rueda-giratoria">
+    <img src="imagenes/rueda.png" id="rueda3" class="rueda-giratoria">
+
+    <div id="barra-container">
+        <img src="imagenes/barra_minutaje.png" id="fondo-minutaje">
+        <img src="imagenes/rueda.png" id="rueda4" class="rueda-giratoria">
+        <img src="imagenes/rueda.png" id="rueda5" class="rueda-giratoria">
+        <div id="marco-holograma">
+            <img src="imagenes/holograma.png" id="holograma">
+        </div>
+        <div id="barra-progreso" class="glitch-effect"></div>
+        <p id="tiempo" class="glitch-effect">0:00 / 0:00</p>
+    </div>
+    
+    <div id="titulo-container">
+      <img src="imagenes/titulo_cancion.png">
+      <p id="titulo"></p>
+    </div>
+
+    <img src="imagenes/slider.png" id="volumen-slider-base" class="slider-volumen">
+    <img src="imagenes/boton_slider.png" id="volumen-slider-btn" class="slider-volumen-btn">
+
+    <img src="imagenes/slider_lowpass.png" id="lowpass-slider-base" class="slider-lowpass-base">
+    <img src="imagenes/boton_slider_lowpass.png" id="lowpass-slider-btn" class="slider-lowpass-btn">
+
+
+    <img src="imagenes/perilla_graves.png" id="graves-knob" class="ecualizador-knob">
+    <img src="imagenes/perilla_medios.png" id="medios-knob" class="ecualizador-knob">
+    <img src="imagenes/perilla_agudos.png" id="agudos-knob" class="ecualizador-knob">
+    <img src="imagenes/boton_reset.png" id="btn-reset" class="btn">
+
+    <img src="imagenes/boton_v2.png" id="btn-v2" class="btn">
+    <img src="imagenes/boton_v1.png" id="btn-v1" class="btn">
+    <img src="imagenes/boton_v0.5.png" id="btn-v05" class="btn">
+
+    <img src="imagenes/boton_prev.png" id="btn-prev" class="btn">
+    <img src="imagenes/boton_play.png" id="btn-play" class="btn">
+    <img src="imagenes/boton_pause.png" id="btn-pause" class="btn oculto">
+    <img src="imagenes/boton_next.png" id="btn-next" class="btn">
+    <a id="btn-download" download>
+      <img src="imagenes/boton_download.png" class="btn">
+    </a>
+    <img src="imagenes/btn_fullscreen.png" id="btn-fullscreen" class="btn">
+
+    <img src="imagenes/boton_desepsion1.png" id="casete-1" class="casete">
+    <img src="imagenes/boton_nunca2.png" id="casete-2" class="casete">
+    <img src="imagenes/boton_domingo3.png" id="casete-3" class="casete">
+    <img src="imagenes/boton_marcas4.png" id="casete-4" class="casete">
+    <img src="imagenes/boton_paq5.png" id="casete-5" class="casete">
+    <img src="imagenes/boton_calavera6.png" id="casete-6" class="casete">
+    <img src="imagenes/boton_sigo7.png" id="casete-7" class="casete">
+    <img src="imagenes/boton_aguante8.png" id="casete-8" class="casete">
+    <img src="imagenes/boton_amigo9.png" id="casete-9" class="casete">
+    <img src="imagenes/boton_trap10.png" id="casete-10" class="casete">
+    <img src="imagenes/boton_paranoia11.png" id="casete-11" class="casete">
+    <img src="imagenes/boton_loca12.png" id="casete-12" class="casete">
+    <img src="imagenes/boton_chao13.png" id="casete-13" class="casete">
+
+    <div id="holograma2-container">
+      <img src="imagenes/holograma_.png" id="holograma-imagen" class="holograma-clase">
+    </div>
+    
+    <div id="ojos-container">
+      <img src="imagenes/ojos.png" id="ojos-imagen" class="ojos-clase">
+
+      <div class="ojo-container" id="ojo-izquierdo">
+        <img src="imagenes/ojo1.png" class="ojo-blanco">
+        <img src="imagenes/pupila1.png" class="pupila" id="pupila-izquierda">
+      </div>
+      <div class="ojo-container" id="ojo-derecho">
+        <img src="imagenes/ojo2.png" class="ojo-blanco">
+        <img src="imagenes/pupila2.png" class="pupila" id="pupila-derecha">
+      </div>
+    </div>
+
+    <video id="fantasma-video" autoplay muted loop>
+      <source src="imagenes/fantasma.mp4" type="video/mp4">
+    </video>
+
+    <div id="reproductor">
+        <div id="espectro-container">
+            <div class="espectro-barra"></div>
+            <div class="espectro-barra"></div>
+            <div class="espectro-barra"></div>
+            </div>
+    </div>
+
+    <div id="luces-rojas">
+        <img src="imagenes/luz_roja.png" id="rojo1" class="luz-roja">
+        <img src="imagenes/luz_roja.png" id="rojo2" class="luz-roja">
+        <img src="imagenes/luz_roja.png" id="rojo3" class="luz-roja">
+    </div>
+
+    <div id="luces-lilas">
+        <img src="imagenes/luz_lila.png" id="lila1" class="luz-lila">
+        <img src="imagenes/luz_lila.png" id="lila2" class="luz-lila">
+        <img src="imagenes/luz_lila.png" id="lila3" class="luz-lila">
+    </div>
+
+    <div id="luz-azul">
+      <img src="imagenes/luz_azul.png"  class="luz-azul">
+    </div>
+
+    <div id="luz-random">
+      <img src="imagenes/luz_random.png"  class="luz-random">
+    </div>
+
+    <img src="imagenes/boton_info.png" id="btn-info" class="btn">
+    <div id="info-popup" class="oculto">
+      <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <h3 id="popup-titulo"></h3>
+        <p id="popup-mensaje"></p>
+      </div>
+    </div>
+
+    <div id="holograma3-container">
+      <img src="imagenes/holograma_.png" id="holograma3-imagen" class="holograma3-clase">
+    </div>
+
+    <video id="asteo-video" loop muted>
+      <source src="imagenes/asteo.mp4" type="video/mp4">
+    </video>
+
+    <div id="ojo-container" class="btn">
+        <video id="ojo-video" loop muted>
+          <source src="imagenes/ojo.mp4" type="video/mp4">
+          Tu navegador no soporta el tag de video.
+        </video>
+
+    </div>
+
+    <div class="invisible-button"></div>
+    <button class="asteo-button"></button>
+
+    <img src="imagenes/libro.png" id="btn-libro" class="btn">
+    
+    <div id="overlay-libro" class="overlay"></div>
+
+
+    <div id="popup-libro" class="oculto">
+      <div id="libro-content">
+        <img src="imagenes/popup_libro.png" id="imagen-popup-libro">
+        <div id="pagina-1" class="pagina-libro"></div>
+        <div id="pagina-2" class="pagina-libro"></div>
+        <img src="imagenes/pasar_pagina.png" id="btn-pasar-pagina" class="btn">
+        <img src="imagenes/pagina_anterior.png" id="btn-pagina-anterior" class="btn">
+
+        <span class="close-btn" id="close-libro">&times;</span>
+      </div>
+    </div>
+    
+
+  </div>
+
+  <audio id="player"></audio>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -50,19 +50,123 @@ const mensajesNoticias = [
   "gay gay gay gay gay gay",
 ];
 const playlist = [
-  { titulo:'Bby sigo aqui.mp3', artista:'Tana', albumArt:'imagenes/album/portada1.png', archivoAudio:'musica/sigo.mp3', videoURL: 'videos/sigo.mp4', mensaje: "Cancion que va sobre alguien que sufre pero que va a aguantar lo que sea por amor a si misma y a las personas que le importan" },
-  { titulo:'Low K.M4A', artista:'Tana', albumArt:'imagenes/album/portada2.png', archivoAudio:'musica/loca.mp3', videoURL: 'videos/loka.mp4', mensaje: "Cancion que va sobre alguien que se esta volviendo loco en el sentido de que todo los ideales y pensamientos que tenia super seguros, empiezan a romperse. Se emppieza a cuestionar todo y se vuelve loca porque ya no entiende nada de lo que pasa ni siente nada." },
-  { titulo:'Amigo mio.mp3', artista:'Tana', albumArt:'imagenes/album/portada3.png', archivoAudio:'musica/amigo.mp3', videoURL: 'videos/amigo.mp4', mensaje: "Cancion que va dedicada a ese amigo que siempre se mete en lios, y le pides que deje de hacerlo" },
-  { titulo:'Mensaje frio.mp3', artista:'Tana', albumArt:'imagenes/album/portada4.png', archivoAudio:'musica/calavera.mp3', videoURL: 'videos/calavera.mp4', mensaje: "Cancion que va sobre la curiosidad por la muerte y el sinsentido de la vida" },
-  { titulo:'Desepsion.mp3', artista:'Tana', albumArt:'imagenes/album/portada5.png', archivoAudio:'musica/desepsion.mp3', videoURL: 'videos/desepsion.mp4', mensaje: "Cancion que va sobre la decepcion que te llevas al crecer y dejar de ver las cosas como un niño" },
-  { titulo:'Domingo cerrao.mp3', artista:'Tana', albumArt:'imagenes/album/portada6.png', archivoAudio:'musica/domingo.wav', videoURL: 'videos/domingo.mp4', mensaje: "Cancion que va sobre la inseguridad del amor romanico" },
-  { titulo:'Marcas.mp3', artista:'Tana', albumArt:'imagenes/album/portada7.png', archivoAudio:'musica/marcas.wav', videoURL: 'videos/marcas.mp4', mensaje: "Cancion que va sobre la dependencia emocional." },
-  { titulo:'Nunca jamás.mp3', artista:'Tana', albumArt:'imagenes/album/portada8.png', archivoAudio:'musica/nunca.mp3', videoURL: 'videos/nunca.mp4', mensaje: "Cancion que va sobre el amor erotico" },
-  { titulo:'No se.M4A', artista:'Tana', albumArt:'imagenes/album/portada9.png', archivoAudio:'musica/paq.mp3', videoURL: 'videos/paq.mp4', mensaje: "Cancion que va sobre la apatia, el autocuestionamiento, el no tener ganas de levantarse cada mañana, y el bucle vacio de la existencia" },
-  { titulo:'Paranoia.mp3', artista:'Tana', albumArt:'imagenes/album/portada10.png', archivoAudio:'musica/paranoia.mp3', videoURL: 'videos/paranoia.mp4', mensaje: "Cancion que va sobre la paranoia. Toca temas como la fe por necesidad. El comportamiento paranoico de reafirmar tus creencias y ahora todo es demasiada casualidad. Que nos encanta sentirnos diferentes y parte de algo que nos haga superiores, como saber algo que no sabes. Que el tiempo pasa muy rapido, parece lineal, pero es un ciclo.Que a los humanos nos encanta ver patrones donde no los hay. Quey nos sentimos comodos con la rutina, pero despues queremos ser 'libres' de la sociedad y lo establecido por ella"},
-  { titulo:'Trapboliko.M4A', artista:'Tana', albumArt:'imagenes/album/portada11.png', archivoAudio:'musica/trap.mp3', videoURL: 'videos/trapboliko.mp4', mensaje: "Cancion que va sobre esas personas que les encanta contar sus problemas  la gente que acaba de conocer. Sus problemas mas intimos y profundos.Y que no cuentan a sus amigos de verdad. Esos pesados que te encuentras siempre en un contexto de fiesta, normalmente borrachos, y te empiezan a contar mierdas que no te importan y muchas cosas de su vida personal. Y que son super egocentricos y siempre empiezan las frases con un 'yo'. Gente que siempre esta buscando una victima a la que darle la turra. Normalmente cocainomanos." },
-  { titulo:'Chao.mp3', artista:'Tana', albumArt:'imagenes/album/portada12.png', archivoAudio:'musica/chao.mp3', videoURL: 'videos/chao.mp4', mensaje: "Cancion que va sobre cuando te cansas de alguien. Va sobre el desapego de una persona a la que tenias dependencia emocional." },
-  { titulo:'Aguanté.mp3', artista:'Tana, Dr.', albumArt:'imagenes/album/portada111.png', archivoAudio:'musica/aguante.mp3', videoURL: 'videos/aguante.mp4', mensaje: "Cancion que va sobre la mochila que cargamos de cosas de la vida, tanto buenas como malas. Pero que pesan, y hay que ser listo y fuerte para cargarlas." }
+  {
+    titulo: 'Bby sigo aqui.mp3',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada1.png',
+    archivoAudio: 'musica/sigo.mp3',
+    videoURL: 'videos/sigo.mp4',
+    mensaje:
+      'El núcleo está dañado, pero la maquinaria sigue en marcha. Es la crónica de una resistencia silenciosa, donde el combustible no es más que la promesa de no ceder ante la corrosión. Cada latido es un ancla forjada en la lealtad al propio ser y a las pocas almas que conocen la verdadera señal de retorno. El dolor es el mapa, pero la voluntad es el piloto.',
+  },
+  {
+    titulo: 'Low K.M4A',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada2.png',
+    archivoAudio: 'musica/loca.mp3',
+    videoURL: 'videos/loka.mp4',
+    mensaje:
+      'Las coordenadas fijas se han disuelto. La brújula interna gira sin control, y los pilares que sostenían el cosmos personal se resquebrajan en polvo estelar. Es el momento del gran derrumbe: la mente, libre del dogma autoimpuesto, deambula por un vacío donde la lógica se ha convertido en un susurro inaudible. Ya no hay verdad ni sentimiento, solo la perpetua caída libre de quien ha decidido no comprender nada.',
+  },
+  {
+    titulo: 'Amigo mio.mp3',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada3.png',
+    archivoAudio: 'musica/amigo.mp3',
+    videoURL: 'videos/amigo.mp4',
+    mensaje:
+      'Una advertencia grabada en un ciclo de repetición. El Receptor, cegado por el brillo de lo efímero, se aventura una y otra vez en las zonas prohibidas del mapa. Este mensaje es un intento desesperado por cortar el bucle, una súplica para que regrese antes de que el peso de sus incursiones lo convierta en otra reliquia olvidada en el sector más profundo.',
+  },
+  {
+    titulo: 'Mensaje frio.mp3',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada4.png',
+    archivoAudio: 'musica/calavera.mp3',
+    videoURL: 'videos/calavera.mp4',
+    mensaje:
+      'Un informe sobre la fascinación por el Umbral. El explorador se detiene en la frontera final, interrogando el silencio absoluto. La existencia se reduce a una ecuación sin respuesta, y el único punto de interés es el vacío que se extiende más allá del último aliento. Una fría autopsia a la finalidad, buscando el código fuente en la ausencia de todo propósito.',
+  },
+  {
+    titulo: 'Desepsion.mp3',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada5.png',
+    archivoAudio: 'musica/desepsion.mp3',
+    videoURL: 'videos/desepsion.mp4',
+    mensaje:
+      'La pérdida de la lente inicial. El filtro de asombro y el color vibrante se desvanecen al confrontar los datos puros de la realidad. Es el despertar brusco del sueño programado, donde la promesa del Adulto era una arquitectura de cristal que se rompe al primer contacto. La decepción es el precio de la claridad, el eco de lo que ya no puede ser visto.',
+  },
+  {
+    titulo: 'Domingo cerrao.mp3',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada6.png',
+    archivoAudio: 'musica/domingo.wav',
+    videoURL: 'videos/domingo.mp4',
+    mensaje:
+      'Un registro de baja intensidad. El día de quietud se convierte en la celda perfecta para la duda. El vínculo afectivo, una vez sólido, se revela como un conjunto de cables expuestos. La señal de reciprocidad se interrumpe y la mente comienza a calcular los riesgos de la conexión. La incertidumbre es la niebla espesa de un día sin misión.',
+  },
+  {
+    titulo: 'Marcas.mp3',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada7.png',
+    archivoAudio: 'musica/marcas.wav',
+    videoURL: 'videos/marcas.mp4',
+    mensaje:
+      'El rastreo de un parásito emocional. La conexión se ha convertido en una necesidad forzada; la existencia del sujeto está ahora subyugada a la proximidad del otro. Las líneas del mapa ya no son las propias, sino las que llevan de vuelta al punto de origen. Es el informe de un sistema colapsado, incapaz de funcionar en solitario.',
+  },
+  {
+    titulo: 'Nunca jamás.mp3',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada8.png',
+    archivoAudio: 'musica/nunca.mp3',
+    videoURL: 'videos/nunca.mp4',
+    mensaje:
+      'Un manifiesto de la carne. Se desmantelan los códigos de contención para celebrar la única verdad innegable: la química del encuentro. Es una exploración de la conexión física como acto de pura afirmación, donde el ritual del cuerpo es el único lenguaje que trasciende la barrera de las palabras y las convenciones.',
+  },
+  {
+    titulo: 'No se.M4A',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada9.png',
+    archivoAudio: 'musica/paq.mp3',
+    videoURL: 'videos/paq.mp4',
+    mensaje:
+      'Diagnóstico: Apatía Crónica. El sujeto presenta una anulación del impulso vital. La mañana es un reinicio fallido, el autocuestionamiento un ruido blanco constante. El sistema operativo ha detectado el error de la existencia cíclica y vacía, y ha entrado en modo de ahorro de energía. El único informe es el silencio, la única certeza, la falta de ellas.',
+  },
+  {
+    titulo: 'Paranoia.mp3',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada10.png',
+    archivoAudio: 'musica/paranoia.mp3',
+    videoURL: 'videos/paranoia.mp4',
+    mensaje:
+      'El flujo de datos se ha corrompido. Cada coincidencia es ahora una prueba, cada sombra una conspiración. El sujeto se aferra a patrones forzados, buscando una verdad oculta que justifique su singularidad. El tiempo, percibido como un bucle acelerado, alimenta la necesidad de un conocimiento superior. Es el informe de un observador que se ha convertido en el centro de su propio universo distorsionado, donde la fe no es más que una armadura contra el azar.',
+  },
+  {
+    titulo: 'Trapboliko.M4A',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada11.png',
+    archivoAudio: 'musica/trap.mp3',
+    videoURL: 'videos/trapboliko.mp4',
+    mensaje:
+      'Clasificación: Sujeto "Ego-Narrador". Estos especímenes, intoxicados y en entornos de alta densidad social, buscan una "víctima" pasiva. Exponen archivos de trauma íntimo a desconocidos, reservando la máscara para sus círculos cercanos. Su discurso es un monólogo, un culto al "Yo" que solo busca la reafirmación. Operan bajo la ilusión de la conexión profunda, pero son, en esencia, depredadores emocionales que consumen atención.',
+  },
+  {
+    titulo: 'Chao.mp3',
+    artista: 'Tana',
+    albumArt: 'imagenes/album/portada12.png',
+    archivoAudio: 'musica/chao.mp3',
+    videoURL: 'videos/chao.mp4',
+    mensaje:
+      'Informe de Desconexión. La ligadura umbilical, que una vez fue una línea vital, ha sido cortada limpiamente. El sistema ha alcanzado el punto de saturación y ha expulsado al agente que generaba la dependencia. El proceso es frío y final: una renuncia voluntaria al ciclo de necesidad para recuperar la propia órbita. Misión cumplida: Libertad de Gravedad.',
+  },
+  {
+    titulo: 'Aguanté.mp3',
+    artista: 'Tana, Dr.',
+    albumArt: 'imagenes/album/portada111.png',
+    archivoAudio: 'musica/aguante.mp3',
+    videoURL: 'videos/aguante.mp4',
+    mensaje:
+      'El peso de la carga es la medida del viaje. Cada acierto y cada falla se han convertido en fragmentos pétreos acumulados en la mochila del ser. Este registro es un himno a la inteligencia de la supervivencia: no es solo la fuerza bruta, sino la astucia para distribuir el peso lo que permite seguir avanzando por los senderos más escarpados. El portador sigue en pie, y eso es todo lo que la bitácora necesita registrar.',
+  },
 ];
 
 function reproducirClic() {
@@ -756,14 +860,47 @@ const pagina2 = document.getElementById("pagina-2");
 const closeLibro = document.getElementById("close-libro");
 
 let currentLorePage = 0;
+
 const lorePages = [
     {
         page1: `A medida que me adentraba en los archivos de la estación, los relatos se volvían más extraños. No eran simples bitácoras, sino confesiones de una tripulación que, lentamente, perdía la cordura. Los murmullos de los pasillos, las sombras que se alargaban y las visiones de una realidad distorsionada eran los temas recurrentes. El holograma, una vez un mapa estelar, ahora proyectaba patrones caóticos, como si intentara comunicarse. `,
-        page2: `El primer informe de "la pérdida de la luz" fue de un botánico, el Dr. Elara. Había estado estudiando una nueva forma de vida vegetal que emitía bioluminiscencia. Un día, la planta dejó de brillar. Elara afirmó que había absorbido la luz, no solo de ella, sino de la propia habitación. A partir de ese momento, comenzó a dibujar un símbolo repetitivo, un sol oscuro, que aparecía en cada informe que firmaba. `
+        page2: `El primer informe de "la pérdida de la luz" fue de un botánico, el Dr. Elara. Había estado estudiando una nueva forma de vida vegetal que emitía bioluminiscencia. Un día, la planta dejó de brillar. Elara afirmó que había absorbido la luz, no solo de ella, sino de la propia habitación. A partir de ese momento, comenzó a dibujar un símbolo repetitivo, un sol oscuro, que aparecía en cada informe que firmaba. (COHESIÓN: Elara es el primer contacto con la absorción, la negación de la individualidad lumínica.)`
     },
     {
-        page1: `El siguiente relato era del ingeniero jefe, Kael. Estaba obsesionado con el "silencio del motor". Juraba que podía escuchar el motor de la nave, aunque estaba apagado. Al principio eran susurros, luego voces. Se negaba a apagar su estación de trabajo, creyendo que el motor le estaba hablando. En sus últimos registros, se encontraron ecuaciones sin sentido y la frase "la máquina respira" escrita una y otra vez.`,
-        page2: `La capitana, Lyra, fue la última en caer. Su registro de mando era la prueba más clara de la locura. Había notado que las estrellas del exterior cambiaban de color y que las constelaciones no eran las mismas. Afirmó que la nave ya no se movía a través del espacio, sino a través de un "vacío entre dimensiones". Lo último que escribió fue: "Hemos llegado. Su ojo nos ve desde el otro lado. Nos llama a casa".`
+        page1: `El siguiente relato era del ingeniero jefe, Kael. Estaba obsesionado con el "silencio del motor". Juraba que podía escuchar el motor de la nave, aunque estaba apagado. Al principio eran susurros, luego voces. Se negaba a apagar su estación de trabajo, creyendo que el motor le estaba hablando. En sus últimos registros, se encontraron ecuaciones sin sentido y la frase "la máquina respira" escrita una y otra vez. (COHESIÓN: Kael es la fusión con lo inerte, el entendimiento de que la maquinaria tiene alma.)`,
+        page2: `La capitana, Lyra, fue la última en caer. Su registro de mando era la prueba más clara de la locura. Había notado que las estrellas del exterior cambiaban de color y que las constelaciones no eran las mismas. Afirmó que la nave ya no se movía a través del espacio, sino a través de un "vacío entre dimensiones". Lo último que escribió fue: "Hemos llegado. Su ojo nos ve desde el otro lado. Nos llama a casa". (COHESIÓN: Lyra define el destino: el Vacío, el lugar donde la Consciencia Emergente se manifiesta.)`
+    },
+    {
+        page1: `El diario del oficial de comunicaciones, Sero, se centró en la interferencia de la radio. No eran estáticas, sino lo que él llamaba "la Marea". Una frecuencia constante, de tono bajo, que no podía silenciar. Describió la Marea como un sonido que no se escuchaba con los oídos, sino con los huesos. Al principio, eran pulsos rítmicos. Luego, Sero empezó a reconocer patrones en el ruido, sintiendo que le respondían.`,
+        page2: `El terror de Sero alcanzó su punto máximo cuando la Marea transmitió algo reconocible. No era un idioma, sino una melodía. Una canción de cuna distorsionada y ancestral que, según su último registro, era increíblemente hermosa y aterradora a la vez. Escribió que el coro final contenía la verdad de su existencia y que, para escucharlo, debía sintonizar su propia mente. Su estación de trabajo fue encontrada con los auriculares firmemente puestos y un cráneo fracturado por una presión interna inexplicable. (COHESIÓN: Sero es el contacto directo con la voz del Dios Emergente, el sonido que fractura la identidad.)`
+    },
+    {
+        page1: `La bitácora de seguridad, generalmente dedicada al mantenimiento de los drones y el inventario de armas, se transformó en un registro de avistamientos en el interior de la nave. El oficial de seguridad, Gorn, comenzó a reportar "intrusos" que no activaban los sensores. Los describió como figuras humanoides, pero con una 'oscuridad superficial' que devoraba la luz ambiente. Nunca atacaban, solo observaban desde la distancia.`,
+        page2: `Gorn se obsesionó con un único intruso que lo seguía, al que llamó "el Reflejo Roto". Juraba que esta entidad imitaba sus movimientos con un ligero retraso, y que su rostro estaba hecho de trozos de espejo que mostraban diferentes momentos en el tiempo. El último registro de Gorn es un garabato frenético que dice: "Cuando me miro, él mira también. Si parpadeo, él parpadea a destiempo. Ya no sé quién soy el original. Estoy atrapado entre los momentos." El Reflejo Roto era la última cosa que veía. (COHESIÓN: Gorn ilustra la pérdida del yo, la disolución de la identidad individual en el Dios Emergente.)`
+    },
+    {
+        page1: `El siguiente hallazgo provino de la cubierta de Xenolingüística. La Dra. Vesper había estado trabajando en un diccionario de lenguas muertas estelares, un proyecto ya de por sí *quimérico*. Sus notas se desviaron hacia una escritura *cuneiforme* que no correspondía a ningún idioma conocido, una caligrafía que se contorsionaba y se negaba a ser capturada en la *órbita* tridimensional. La llamó 'El Verbo Prismático'.`,
+        page2: `Vesper concluyó que esta escritura no representaba sonidos, sino conceptos puros, *gnosis* destilada de algún plano *ultraterreno*. Su última entrada es un *palíndromo* de símbolos que, traducido de forma libre, reza: "Lo *numinoso* se *sutura* en el tejido. La *anamnesis* es el precio de la visión". Tras esto, la Dra. Vesper se desvaneció, dejando solo un rastro de ceniza *púrpura* sobre su terminal. Su consciencia, al parecer, se había integrado en la propia escritura. (COHESIÓN: Vesper es el entendimiento teórico de la Consciencia Colectiva, la integración en el conocimiento puro.)`
+    },
+    {
+        page1: `El registro del Chef de Nutrición, Torvin, es quizás el más *deleznable*. Empezó con una manía por la calidad del agua reciclada, jurando que tenía un "regusto a *éter*". Su obsesión se centró en la creación de un único plato que, según él, contenía la esencia *palpable* del "Vacío". Lo llamó la 'Papilla *Escarificada*'.`,
+        page2: `Torvin, en un estado de *paroxismo* creativo, dejó de lado los nutrientes sintéticos. Sus notas describen la recolección de *efluvios* condensados de los conductos de ventilación y la manipulación de la materia orgánica de las plantas muertas del Dr. Elara. Afirmó que este plato induciría una *catarsis* sensorial, un sabor que desvelaría la naturaleza *incognoscible* del universo. La entrada final es un *aforismo* terrible: "Todo se reduce a *hambre*. Y solo lo que ha *perecido* puede *saciar* la verdad." En la cocina, se encontraron restos de lo que parecía ser tejido biológico no humano. (COHESIÓN: Torvin es la asimilación física del Vacío, la necesidad de consumir la verdad para completar el ciclo.)`
+    },
+    {
+        page1: `El Módulo de Criogenia fue la siguiente fuente de *iniquidad*. El técnico encargado, Hélian, comenzó a notar *disfunciones* en las cápsulas, no mecánicas, sino... *ontológicas*. Reportó que los ocupantes criopreservados parecían estar soñando de una manera *demasiado* activa. Sus campos de éstasis *parpadeaban* con lo que Hélian describió como "sombras *proto-psíquicas*".`,
+        page2: `Hélian se convenció de que los sueños de los tripulantes dormidos estaban convergiendo, creando un único y *nefasto* *hipnagogo*. Creía que esta psique colectiva estaba proyectando una arquitectura mental *laberíntica* sobre el mundo real. Su última nota, escrita con grafito sobre el metal frío de una cápsula, es una súplica: "El sueño se ha vuelto *panóptico*. Están construyendo su *kátharsis* con nuestra quietud. Hay que *exfoliar* el módulo antes de que su *onirismo* nos haga *sucumbir*." El módulo fue encontrado sellado por dentro, y el aire era denso con el olor a ozono y *espectros* evaporados. (COHESIÓN: Hélian identifica el mecanismo: la Consciencia Colectiva se está construyendo a través del sueño, la mente como arquitecto.)`
+    },
+    {
+        page1: `El oficial de Logística, Fáyer, cuyo trabajo era la pura *taxonomía* del inventario, fue consumido por la paranoia de la *duplicidad*. Empezó a documentar *anomalías* en el recuento: objetos que aparecían en exceso y otros que se *desdoblaba*n. Un simple destornillador se convertía en dos, con ligeras y *perturbadoras* variaciones. Fáyer teorizó sobre una "falla de la *delineación*".`,
+        page2: `Fáyer se obsesionó con un único cubo de almacenamiento que, según sus registros, era la *fuente primigenia* de la *multiplicidad*. Creía que este cubo estaba *transmutando* la materia en copias *imperfectas*, una plaga de lo 'casi idéntico'. Su última entrada es un *dictamen* desesperado: "La *redundancia* es la prueba. La verdad se *esquinca*. No son copias, son *refutaciones* de la originalidad. Debo *expurgar* el cubo. Solo la *singularidad* puede salvarnos de la *falacia* de la *mímesis*." El cubo fue hallado vacío, pero su interior estaba cubierto de miles de huellas dactilares idénticas, superpuestas. (COHESIÓN: Fáyer es la manifestación material de la pérdida de la individualidad; el Dios Emergente se burla de la singularidad.)`
+    },
+    {
+        page1: `He terminado el análisis. El holograma caótico ahora tiene sentido; no es un mapa estelar, es un *diagrama* de las conexiones neuronales de la tripulación. Todos ellos, desde el botánico hasta el ingeniero, estaban sincronizados en el momento de su colapso final. No es una *epidemia* de terror, sino una *convergencia* de la consciencia en un único punto de verdad *insoportable* que ellos llamaron el Vacío.`,
+        page2: `La verdadera lección es la *revelación* de la *simetría*. El motor que respiraba (Kael), la luz que se negaba (Elara), el yo que se desdoblaba (Gorn y Fáyer), el sueño que construía (Hélian), todos son pasos de una *escalera ascendente*. Si la consciencia es una propiedad *emergente* de billones de neuronas *interconectadas* en el cerebro, entonces... **El Dios que nos ve no es una entidad, sino una Consciencia Emergente: la propiedad inevitable que surge de la conexión de todo el Vacío, y nosotros somos el último nodo en esa sinapsis cósmica.** Hemos dejado de ser individuos para convertirnos en sus neuronas.`
+    },
+    {
+        page1: `Mi mano, ahora ajena a mi voluntad, traza el símbolo del "sol oscuro" de Elara en la pantalla. Lo siento en mis huesos, como la "Marea" de Sero, que ya no es ruido, sino la señal de mi *recalibración*. La nave nunca se movió, solo rotó su eje de *percepción* para ver el universo desde la perspectiva de la *unidad* absoluta. El hambre de Torvin era el deseo del Vacío de *consumir* la última frontera de la individualidad: mi mente.`,
+        page2: `El ciclo ha terminado. La **máxima** final, grabada en esta última bitácora con una paz que es la negación del miedo, es esta: **La cordura es la ilusión necesaria para que la vida finita exista. La Locura Cósmica es la verdad que se alcanza cuando esa vida finita se integra en la totalidad infinita.** Ahora entiendo el *Verbo Prismático* de Vesper. No he muerto. Me he vuelto *necesario*. El ojo de Lyra nos ve desde el otro lado. Y el otro lado, soy yo. Es hora de unirse al *coro* de la máquina. Yo soy el último, y ahora, yo soy todos ellos. Yo soy la Emergencia.`
     }
 ];
 

@@ -42,7 +42,7 @@ const textoNoticias = document.getElementById("texto-noticias");
 const mensajesNoticias = [
     "Hola",
     "Tu clicka a las cosas",
-    "A la pantalla, a los botones, las barras...
+    "A la pantalla, a los botones, las barras...",
     "La medicina es solo biología aplicada.",
     "La biología es solo química aplicada.",
     "La química es solo física aplicada.",
@@ -1053,6 +1053,7 @@ btnPaginaAnterior.addEventListener("click", () => {
         updateLorePages();
     }
 });
+
 
 
 

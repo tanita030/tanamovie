@@ -859,9 +859,9 @@ let invisibleButtonClickCount = 0;
 
 const invisibleButtonMessages = [
   "?",
-  "q"
-  "u"
-  "3"
+  "q",
+  "u",
+  "3",
   "4yud4",
   "4yud4",
   "4yud4",
@@ -869,7 +869,7 @@ const invisibleButtonMessages = [
   "c0l4b0r4c10n",
   "0bt3nc10n",
   "d3m4nd4",
-  "3m4n4
+  "3m4n4",
   "p0d3m0s",
   "un10n",
   "t3l3c0mun1c4c10n",
@@ -1053,6 +1053,7 @@ btnPaginaAnterior.addEventListener("click", () => {
         updateLorePages();
     }
 });
+
 
 
 

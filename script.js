@@ -40,16 +40,25 @@ const rueda5 = document.getElementById("rueda5");
 const textoNoticias = document.getElementById("texto-noticias");
 
 const mensajesNoticias = [
-    "La medicina es solo biología aplicada. La biología es solo química aplicada. La química es solo física aplicada. La física es solo matemática aplicada. Las matemáticas son solo lógica aplicada. La lógica es solo capacidad intelectual aplicada. La capacidad intelectual es solo consciencia aplicada. La consciencia es solo complejidad emergente aplicada. La complejidad emergente es solo aleatoriedad aplicada. Bomboclat",
-    "Todo lo que hay es uno, pero los ojos del ignorante lo ven como muchos.",
+    "Hola",
+    "Tu clicka a las cosas",
+    "A la pantalla, a los botones, las barras...
+    "La medicina es solo biología aplicada.",
+    "La biología es solo química aplicada.",
+    "La química es solo física aplicada.",
+    "La física es solo matemática aplicada.",
+    "Las matemáticas son solo lógica aplicada.",
+    "La lógica es solo capacidad intelectual aplicada.",
+    "La capacidad intelectual es solo consciencia aplicada.",
+    "La consciencia es solo complejidad emergente aplicada."
+    "La complejidad emergente es solo aleatoriedad aplicada.",
+    "Bomboclat",
     "Calcetines perdidos.",
     "Conoce tu yo y habrás conocido a todo lo que es.",
     "El brócoli es un arbolito chikito.",
     "Lo que ves como multiplicidad es solo el reflejo de lo único e inmutable.",
     "La muerte no existe para aquel que conoce su verdadero ser; solo se transforma en eternidad.",
-    "Mi gato me juzga, lo sé.",
     "El que ve la unidad en todas las cosas no teme al tiempo ni al espacio, porque habita en lo eterno.",
-    "Hola",
     "gay gay gay",
     "huele a gay... (soy yo uwu)",
     "Lo que crees perder es solo apariencia; lo que eres jamás se destruye.",
@@ -58,7 +67,6 @@ const mensajesNoticias = [
     "No digas pocas cosas en muchas palabras, sino muchas cosas en pocas palabras.",
     "Soy tan guay",
     "Los mortales creen que los dioses nacen, se visten y hablan como ellos.",
-    "El cambio es ilusión; solo el ser es, y el no-ser no es.",
     "El WiFi es magia negra.",
     "¿El aire es sopa?",
     "La vida sin examen no vale la pena ser vivida.",
@@ -68,7 +76,6 @@ const mensajesNoticias = [
     "La tostadora.",
     "bobobobobo",
     "pipo.",
-    "Tu clicka a las cosas",
     "El hombre es, por naturaleza, un ser que busca sentido; vivir sin propósito es existir a medias.",
     "ser un pato.",
     "Mi perro es mejor CEO bro.",
@@ -90,6 +97,7 @@ const mensajesNoticias = [
     "La verdad no se contradice a sí misma.",
     "El universo es infinito, y nuestra mente solo puede comprender fragmentos; la humildad es la primera virtud del pensamiento.",
     "huele un poco a gay",
+    "Se condensa el Acetil Co-A y el oxalacetato",
     "El pensamiento auténtico no se conforma con la certeza; busca la expansión infinita del espíritu.",
     "No buscamos la verdad absoluta; nos buscamos a nosotros mismos en la experiencia del mundo.",
     "Esto no es una k, es mi ansiedad.",
@@ -98,6 +106,7 @@ const mensajesNoticias = [
     "Dudar no es debilidad.",
     "No confío en la gente que come cruasanes en el metro.",
     "yo lo soy",
+    "Todo lo que hay es uno, pero los ojos del ignorante lo ven como muchos.",
     "La grandeza del hombre está en su capacidad de reconocer su miseria y su infinito a la vez.",
     "La alfombra me odia.",
     "El hombre es un cañón cargado de sentido y vacío a la vez; su grandeza y miseria son inseparables.",
@@ -157,13 +166,9 @@ const mensajesNoticias = [
     "Si te caes, levántate. Si te caes otra vez, quédate en el suelo un rato.",
     "El 'lunes' ",
     "Estoy intentando comunicarme.",
-    "Se condensa el Acetil Co-A y el oxalacetato",
     "Mi espíritu animal es una mitocondria",
     "Necesito un nap",
     "Deberían dar medallas por lavarse las putas manos.",
-    "Soy alérgico a las responsabilidades.",
-    "Mi vida tio mi puta vida",
-    "Si bebo café "
 ];
 
 const playlist = [
@@ -1048,5 +1053,6 @@ btnPaginaAnterior.addEventListener("click", () => {
         updateLorePages();
     }
 });
+
 
 

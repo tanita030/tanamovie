@@ -775,7 +775,7 @@ todosLosBotonesDeVelocidad.forEach(boton => {
 const asteroVideo = document.getElementById("asteo-video");
 
 let videoReproduciendose = false;
-let umbralDeRitmo = 220;
+let umbralDeRitmo = 210;
 
 function detectarRitmo() {
     if (!analyser) return;
@@ -1053,6 +1053,7 @@ btnPaginaAnterior.addEventListener("click", () => {
         updateLorePages();
     }
 });
+
 
 
 

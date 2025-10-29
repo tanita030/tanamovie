@@ -50,7 +50,7 @@ const mensajesNoticias = [
     "Las matemáticas son solo lógica aplicada.",
     "La lógica es solo capacidad intelectual aplicada.",
     "La capacidad intelectual es solo consciencia aplicada.",
-    "La consciencia es solo complejidad emergente aplicada."
+    "La consciencia es solo complejidad emergente aplicada.",
     "La complejidad emergente es solo aleatoriedad aplicada.",
     "Bomboclat",
     "Calcetines perdidos.",
@@ -1053,6 +1053,7 @@ btnPaginaAnterior.addEventListener("click", () => {
         updateLorePages();
     }
 });
+
 
 
 

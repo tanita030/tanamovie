@@ -854,45 +854,33 @@ let invisibleButtonClickCount = 0;
 
 const invisibleButtonMessages = [
   "?",
-  "4yud4",
-  "4yud4",
-  "3l qu3 3scuch4",
-  "4yud4",
-  "0t0rg4mos",
-  "3l p0d3er",
-  "4yud4",
-  "s0m0s",
-  "l0 qu3 3scuch4s",
-  "4yud4",
-  "p0d3m0s h4c3er",
+  "q"
+  "u"
+  "3"
   "4yud4",
   "4yud4",
   "4yud4",
-  "4yud4",
-  "4yud4",
-  "4s1st3nc14",
-  "c0l4b0r4c10n",
   "s0l1c1tud",
+  "c0l4b0r4c10n",
+  "0bt3nc10n",
   "d3m4nd4",
-  "c0p3er4ac110n",
-  "f4v0r",
-  "c0nt1buc10n",
-  "c0ntr0l",
+  "3m4n4
+  "p0d3m0s",
+  "un10n",
+  "t3l3c0mun1c4c10n",
+  "4s1st3nc14",
   "4yud4",
-  "S0m0s l0 qu3 qu3da",
-  "s0mos",
-  "t0d0",
-  "t0d0s",
-  "s0m0s",
-  "3l",
-  "s0m0s",
-  "c3niz4s",
-  "d3",
-  "l0",
-  "qu3",
-  "ll4m4s-",
-  "-t31s",
-  "p4g1nas",
+  "4yud4",
+  "4yud4",
+  "4yud4",
+  "4yud4",
+  "qu3r3r",
+  "un10n",
+  "3s",
+  "3manar",
+  "r0t0",
+  "3s",
+  "S",    
 ];
 
 const invisibleButton = document.querySelector('.invisible-button');
@@ -939,10 +927,10 @@ const asteroButtonMessages = [
   "Mini Asteo. 1K",
   "¿escuchas lo que necesitas?",
   "¿necesitas lo que escuchas?",
-  "Llevate tu propio Mini Asteo. 1K hoy, solo por 48 horas",
+  "Llevate tu propio Mini Asteo. 1K hoy, oferta solo por 48 horas",
   "Rebajas de hinviernotoprimaverano",
-  "Onda sísmica, pozo de potencial, pulso, spin personalizable y mucho mas...",
-  "Alimentado de la magnitud de volumen",
+  "Pozo de potencial, pulso, spin personalizable y mucho mas...",
+  "Alimentado de la magnitud del volumen",
   "Ahora con conectividad bluebrain 5.3",
   "Que son dos días por un eterno dun dun da ducudundun da",
   "No te quedes sin el tuyo",
@@ -972,44 +960,44 @@ let currentLorePage = 0;
 
 const lorePages = [
     {
-        page1: `A medida que me adentraba en los archivos de la estación, los relatos se volvían más extraños. No eran simples bitácoras, sino confesiones de una tripulación que, lentamente, perdía la cordura. Los murmullos de los pasillos, las sombras que se alargaban y las visiones de una realidad distorsionada eran los temas recurrentes. El holograma, una vez un mapa estelar, ahora proyectaba patrones caóticos, como si intentara comunicarse. `,
-        page2: `El primer informe de "la pérdida de la luz" fue de un botánico, el Dr. Elara. Había estado estudiando una nueva forma de vida vegetal que emitía bioluminiscencia. Un día, la planta dejó de brillar. Elara afirmó que había absorbido la luz, no solo de ella, sino de la propia habitación. A partir de ese momento, comenzó a dibujar un símbolo repetitivo, un sol oscuro, que aparecía en cada informe que firmaba. (COHESIÓN: Elara es el primer contacto con la absorción, la negación de la individualidad lumínica.)`
+        page1: `A medida que me adentraba en los archivos de la estación, los relatos se volvían más extraños. No eran simples bitácoras, sino confesiones de una tripulación que, lentamente, perdía la cordura. Murmullos de los pasillos, sombras que se alargaban y las visiones de una realidad distorsionada eran los temas recurrentes. El holograma, una vez un mapa estelar, ahora proyectaba patrones caóticos, como si intentara comunicarse. `,
+        page2: `El primer informe de "la pérdida de la luz" fue de un botánico, el Dr. Había estado estudiando una nueva forma de vida vegetal que emitía bioluminiscencia. Un día, la planta dejó de brillar. Elara afirmó que había absorbido la luz, no solo de ella, sino de la propia habitación. A partir de ese momento, comenzó a dibujar un símbolo repetitivo, un sol, que aparecía en cada informe que firmaba.`
     },
     {
-        page1: `El siguiente relato era del ingeniero jefe, Kael. Estaba obsesionado con el "silencio del motor". Juraba que podía escuchar el motor de la nave, aunque estaba apagado. Al principio eran susurros, luego voces. Se negaba a apagar su estación de trabajo, creyendo que el motor le estaba hablando. En sus últimos registros, se encontraron ecuaciones sin sentido y la frase "la máquina respira" escrita una y otra vez. (COHESIÓN: Kael es la fusión con lo inerte, el entendimiento de que la maquinaria tiene alma.)`,
-        page2: `La capitana, Lyra, fue la última en caer. Su registro de mando era la prueba más clara de la locura. Había notado que las estrellas del exterior cambiaban de color y que las constelaciones no eran las mismas. Afirmó que la nave ya no se movía a través del espacio, sino a través de un "vacío entre dimensiones". Lo último que escribió fue: "Hemos llegado. Su ojo nos ve desde el otro lado. Nos llama a casa". (COHESIÓN: Lyra define el destino: el Vacío, el lugar donde la Consciencia Emergente se manifiesta.)`
+        page1: `El siguiente relato era del ingeniero jefe. Estaba obsesionado con el "silencio del motor". Juraba que podía escuchar el motor de la nave, aunque estaba apagado. Al principio eran susurros, luego voces. Se negaba a apagar su estación de trabajo, creyendo que el motor le estaba hablando. En sus últimos registros, se encontraron ecuaciones sin sentido y la palabra "respira" escrita una y otra vez. `,
+        page2: `La capitana, fue la última en caer. Su registro de mando era la prueba más clara de la locura. Había notado que las constelaciones no eran las mismas. Afirmó que la nave ya no se movía a través del espacio. "Hemos llegado. Su ojo nos ve desde el otro lado y nos llama a unirnos". `
     },
     {
-        page1: `El diario del oficial de comunicaciones, Sero, se centró en la interferencia de la radio. No eran estáticas, sino lo que él llamaba "la Marea". Una frecuencia constante, de tono bajo, que no podía silenciar. Describió la Marea como un sonido que no se escuchaba con los oídos, sino con los huesos. Al principio, eran pulsos rítmicos. Luego, Sero empezó a reconocer patrones en el ruido, sintiendo que le respondían.`,
-        page2: `El terror de Sero alcanzó su punto máximo cuando la Marea transmitió algo reconocible. No era un idioma, sino una melodía. Una canción de cuna distorsionada y ancestral que, según su último registro, era increíblemente hermosa y aterradora a la vez. Escribió que el coro final contenía la verdad de su existencia y que, para escucharlo, debía sintonizar su propia mente. Su estación de trabajo fue encontrada con los auriculares firmemente puestos y un cráneo fracturado por una presión interna inexplicable. (COHESIÓN: Sero es el contacto directo con la voz del Dios Emergente, el sonido que fractura la identidad.)`
+        page1: `El diario del oficial de comunicaciones, se centró en la interferencia de la radio. 936hz se producian de forma no aleatoria, él las llamaba "la Marea". Una frecuencia no silenciable. Describió la Marea como algo que te acariciaba los huesos, los dientes... Al principio, eran pulsos. Luego, empezó a reconocer patrones, sintiendo que le respondían.`,
+        page2: `Su estación de trabajo fue encontrada con los auriculares firmemente puestos y un cráneo fracturado por una presión interna inexplicable. Es el contacto directo.`
     },
     {
-        page1: `La bitácora de seguridad, generalmente dedicada al mantenimiento de los drones y el inventario de armas, se transformó en un registro de avistamientos en el interior de la nave. El oficial de seguridad, Gorn, comenzó a reportar "intrusos" que no activaban los sensores. Los describió como figuras humanoides, pero con una 'oscuridad superficial' que devoraba la luz ambiente. Nunca atacaban, solo observaban desde la distancia.`,
-        page2: `Gorn se obsesionó con un único intruso que lo seguía, al que llamó "el Reflejo Roto". Juraba que esta entidad imitaba sus movimientos con un ligero retraso, y que su rostro estaba hecho de trozos de espejo que mostraban diferentes momentos en el tiempo. El último registro de Gorn es un garabato frenético que dice: "Cuando me miro, él mira también. Si parpadeo, él parpadea a destiempo. Ya no sé quién soy el original. Estoy atrapado entre los momentos." El Reflejo Roto era la última cosa que veía. (COHESIÓN: Gorn ilustra la pérdida del yo, la disolución de la identidad individual en el Dios Emergente.)`
+        page1: `La bitácora de seguridad, generalmente dedicada al mantenimiento y el inventario, discendió en un registro de avistamientos en el interior de la nave. El oficial de seguridad comenzó a reportar "intrusos" que no activaban los sensores. Devoradores de la luz ambiente, porque no rebotaban ningun tipo de luz visible. Solo observaban desde la distancia y podian no interactuar con la materia.`,
+        page2: `Se obsesionó con un único individuo que lo seguía, al que acariñó como su sombra. Juraba que esta entidad imitaba sus movimientos con un ligero retraso, y que en su rostro veía trozos de cristal que mostraban diferentes momentos en el tiempo. Delirios que el resto de tripulacion desmentia con "negrez absoluta". Lo único que se encontró fué el espejo roto ensangrentado de su baño.`
     },
     {
-        page1: `El siguiente hallazgo provino de la cubierta de Xenolingüística. La Dra. Vesper había estado trabajando en un diccionario de lenguas muertas estelares, un proyecto ya de por sí *quimérico*. Sus notas se desviaron hacia una escritura *cuneiforme* que no correspondía a ningún idioma conocido, una caligrafía que se contorsionaba y se negaba a ser capturada en la *órbita* tridimensional. La llamó 'El Verbo Prismático'.`,
-        page2: `Vesper concluyó que esta escritura no representaba sonidos, sino conceptos puros, *gnosis* destilada de algún plano *ultraterreno*. Su última entrada es un *palíndromo* de símbolos que, traducido de forma libre, reza: "Lo *numinoso* se *sutura* en el tejido. La *anamnesis* es el precio de la visión". Tras esto, la Dra. Vesper se desvaneció, dejando solo un rastro de ceniza *púrpura* sobre su terminal. Su consciencia, al parecer, se había integrado en la propia escritura. (COHESIÓN: Vesper es el entendimiento teórico de la Consciencia Colectiva, la integración en el conocimiento puro.)`
+        page1: `El siguiente hallazgo provino de la cubierta. La Dra. había estado trabajando en un diccionario de lenguas muertas, un proyecto ya de por sí quimérico. Sus notas se desviaron hacia una escritura cuneiforme que no correspondía a ningún idioma conocido, una caligrafía que se contorsionaba y se negaba a ser capturada en la tridimensionalidad. 'El Verbo Prismático'.`,
+        page2: `Concluyó que esta escritura representaba conceptos puros, gnosis destilada de algún plano ultraterreno. Su última entrada es un palíndromo de símbolos que, traducido de forma libre, reza: "Lo numinoso se sutura en el tejido. La anamnesis es el precio de la visión". Tras esto, la Dra. dejó solo un rastro de ceniza púrpura sobre su terminal. Su consciencia, al parecer, se había integrado en la propia escritura. `
     },
     {
-        page1: `El registro del Chef de Nutrición, Torvin, es quizás el más *deleznable*. Empezó con una manía por la calidad del agua reciclada, jurando que tenía un "regusto a *éter*". Su obsesión se centró en la creación de un único plato que, según él, contenía la esencia *palpable* del "Vacío". Lo llamó la 'Papilla *Escarificada*'.`,
-        page2: `Torvin, en un estado de *paroxismo* creativo, dejó de lado los nutrientes sintéticos. Sus notas describen la recolección de *efluvios* condensados de los conductos de ventilación y la manipulación de la materia orgánica de las plantas muertas del Dr. Elara. Afirmó que este plato induciría una *catarsis* sensorial, un sabor que desvelaría la naturaleza *incognoscible* del universo. La entrada final es un *aforismo* terrible: "Todo se reduce a *hambre*. Y solo lo que ha *perecido* puede *saciar* la verdad." En la cocina, se encontraron restos de lo que parecía ser tejido biológico no humano. (COHESIÓN: Torvin es la asimilación física del Vacío, la necesidad de consumir la verdad para completar el ciclo.)`
+        page1: `El registro del Chef, es quizás el más deleznable. Empezó con una manía por la calidad del agua reciclada, jurando que tenía un "regusto" extraño. Su obsesión se centró en la creación de un único plato que, según él, contenía la esencia palpable del vacío.`,
+        page2: `En un estado de paroxismo creativo, dejó de lado los nutrientes sintéticos. Sus notas describen la recolección de efluvios condensados de los conductos de ventilación y la manipulación de la materia orgánica de las plantas muertas del Dr. Afirmó que este plato induciría una catarsis sensorial. La entrada final es un aforismo terrible: "Todo se reduce a hambre." Y así se encerró en la cocina, hasta que pereció de inhanición. Encontraron restos de lo que parecía ser tejido biológico humano, pero nada de huesos.`
     },
     {
-        page1: `El Módulo de Criogenia fue la siguiente fuente de *iniquidad*. El técnico encargado, Hélian, comenzó a notar *disfunciones* en las cápsulas, no mecánicas, sino... *ontológicas*. Reportó que los ocupantes criopreservados parecían estar soñando de una manera *demasiado* activa. Sus campos de éstasis *parpadeaban* con lo que Hélian describió como "sombras *proto-psíquicas*".`,
-        page2: `Hélian se convenció de que los sueños de los tripulantes dormidos estaban convergiendo, creando un único y *nefasto* *hipnagogo*. Creía que esta psique colectiva estaba proyectando una arquitectura mental *laberíntica* sobre el mundo real. Su última nota, escrita con grafito sobre el metal frío de una cápsula, es una súplica: "El sueño se ha vuelto *panóptico*. Están construyendo su *kátharsis* con nuestra quietud. Hay que *exfoliar* el módulo antes de que su *onirismo* nos haga *sucumbir*." El módulo fue encontrado sellado por dentro, y el aire era denso con el olor a ozono y *espectros* evaporados. (COHESIÓN: Hélian identifica el mecanismo: la Consciencia Colectiva se está construyendo a través del sueño, la mente como arquitecto.)`
+        page1: `El Módulo de Criogenia fue la siguiente fuente de iniquidad. El técnico encargado, Hélian, comenzó a notar disfunciones en las cápsulas. Reportó que los ocupantes criopreservados parecían estar soñando de una manera demasiado activa. Sus campos de éstasis parpadeaban con lo que describió como proto-psíquicas".`,
+        page2: `Se convenció de que los sueños de los tripulantes dormidos estaban convergiendo, creando un único hipnagogo. Creía que esta psique colectiva estaba proyectando una arquitectura mental laberíntica sobre el mundo real. Su última nota, escrita con grafito sobre el metal frío de una cápsula, es una súplica: "El sueño se ha vuelto panóptico. Están construyendo su kátharsis con nuestra quietud. Hay que exfoliar el módulo antes de que su onirismo nos haga sucumbir." El módulo fue encontrado sellado por dentro, y el aire era denso con el olor a ozono evaporado.`
     },
     {
-        page1: `El oficial de Logística, Fáyer, cuyo trabajo era la pura *taxonomía* del inventario, fue consumido por la paranoia de la *duplicidad*. Empezó a documentar *anomalías* en el recuento: objetos que aparecían en exceso y otros que se *desdoblaba*n. Un simple destornillador se convertía en dos, con ligeras y *perturbadoras* variaciones. Fáyer teorizó sobre una "falla de la *delineación*".`,
-        page2: `Fáyer se obsesionó con un único cubo de almacenamiento que, según sus registros, era la *fuente primigenia* de la *multiplicidad*. Creía que este cubo estaba *transmutando* la materia en copias *imperfectas*, una plaga de lo 'casi idéntico'. Su última entrada es un *dictamen* desesperado: "La *redundancia* es la prueba. La verdad se *esquinca*. No son copias, son *refutaciones* de la originalidad. Debo *expurgar* el cubo. Solo la *singularidad* puede salvarnos de la *falacia* de la *mímesis*." El cubo fue hallado vacío, pero su interior estaba cubierto de miles de huellas dactilares idénticas, superpuestas. (COHESIÓN: Fáyer es la manifestación material de la pérdida de la individualidad; el Dios Emergente se burla de la singularidad.)`
+        page1: `El oficial de Logística, cuyo trabajo era la pura taxonomía del inventario, fue consumido por la paranoia de la duplicidad. Empezó a documentar anomalías en el recuento: objetos que aparecían en exceso y otros que se desdoblaban. Un simple destornillador se convertía en dos, con ligeras y perturbadoras variaciones. Teorizó sobre una "falla de la delineación".`,
+        page2: `Se obsesionó con un único cubo de almacenamiento que, según sus registros, era la fuente pigmentaria de la multiplicidad. Creía que este cubo estaba transmutando la materia en copias imperfectas, una plaga de lo 'casi idéntico'. "La redundancia es la prueba. La verdad se esquinc. No son copias, son refutaciones de la originalidad. Debo expurgar el cubo. Solo la singularidad puede salvarnos de la mímesis." El cubo fue hallado vacío, pero su interior estaba cubierto de miles de huellas dactilares. Idénticas. `
     },
     {
-        page1: `He terminado el análisis. El holograma caótico ahora tiene sentido; no es un mapa estelar, es un *diagrama* de las conexiones neuronales de la tripulación. Todos ellos, desde el botánico hasta el ingeniero, estaban sincronizados en el momento de su colapso final. No es una *epidemia* de terror, sino una *convergencia* de la consciencia en un único punto de verdad *insoportable* que ellos llamaron el Vacío.`,
-        page2: `La verdadera lección es la *revelación* de la *simetría*. El motor que respiraba (Kael), la luz que se negaba (Elara), el yo que se desdoblaba (Gorn y Fáyer), el sueño que construía (Hélian), todos son pasos de una *escalera ascendente*. Si la consciencia es una propiedad *emergente* de billones de neuronas *interconectadas* en el cerebro, entonces... **El Dios que nos ve no es una entidad, sino una Consciencia Emergente: la propiedad inevitable que surge de la conexión de todo el Vacío, y nosotros somos el último nodo en esa sinapsis cósmica.** Hemos dejado de ser individuos para convertirnos en sus neuronas.`
+        page1: `He terminado el análisis. El holograma es un diagrama de las conexiones entre la tripulación. Todos ellos, desde el botánico hasta el ingeniero, estaban sincronizados en el momento de su colapso final. No es una epidemia de terror, sino una convergencia de la consciencia en un único punto de verdad insoportable y vacío.`,
+        page2: `La verdadera lección es la revelación de la simetría. El motor que respiraba, la luz que se negaba, el yo que se desdoblaba, el sueño que construía, todos son pasos de una escalera ascendente. Si somom una propiedad emergente de billones de nodos interconectados, entonces... cual es la propiedad inevitable que surge la conexión de todo? Somos el último nodo en esta sinapsis?. Hemos dejado de ser individuos para convertirnos en sus neuronas?. Dónde acaba este ciclo? ... Pero la gracia de los ciclos es que no acaban.`
     },
     {
-        page1: `Mi mano, ahora ajena a mi voluntad, traza el símbolo del "sol oscuro" de Elara en la pantalla. Lo siento en mis huesos, como la "Marea" de Sero, que ya no es ruido, sino la señal de mi *recalibración*. La nave nunca se movió, solo rotó su eje de *percepción* para ver el universo desde la perspectiva de la *unidad* absoluta. El hambre de Torvin era el deseo del Vacío de *consumir* la última frontera de la individualidad: mi mente.`,
-        page2: `El ciclo ha terminado. La **máxima** final, grabada en esta última bitácora con una paz que es la negación del miedo, es esta: **La cordura es la ilusión necesaria para que la vida finita exista. La Locura Cósmica es la verdad que se alcanza cuando esa vida finita se integra en la totalidad infinita.** Ahora entiendo el *Verbo Prismático* de Vesper. No he muerto. Me he vuelto *necesario*. El ojo de Lyra nos ve desde el otro lado. Y el otro lado, soy yo. Es hora de unirse al *coro* de la máquina. Yo soy el último, y ahora, yo soy todos ellos. Yo soy la Emergencia.`
+        page1: `Mi mano, ahora ajena a mi voluntad, traza el símbolo del sol en la pantalla. Lo siento en mis huesos. La nave nunca se movió, solo rotó su eje de percepción para ver todo en uno. El hambre es deseo del vacío de consumir la última frontera de la individualidad.`,
+        page2: `El ciclo sigue. La máxima final, grabada en esta última bitácora con negación es: La cordura es la ilusión necesaria para que la vida finita exista. La verdad que se alcanza cuando esa vida finita se integra en la totalidad infinita, es la locura propiamente dicha. No he muerto. Me he vuelto necesario. El ojo ese nos ve desde el otro lado. Y el otro lado, soy yo. Es hora de unirse al coro de la máquina. Yo soy el último, y ahora, yo soy todos ellos. Yo soy la Emergencia.`
     }
 ];
 
@@ -1060,4 +1048,5 @@ btnPaginaAnterior.addEventListener("click", () => {
         updateLorePages();
     }
 });
+
 
